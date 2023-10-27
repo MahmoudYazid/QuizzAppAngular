@@ -1,0 +1,20 @@
+<main class=" bg-white w-screen h-[50rem] flex justify-center items-center ">
+    <section class="min-h-[90%]  w-[80%] lg:w-[50%] bg-gray-200 grid grid-rows-[1fr_2fr] ">
+        <section  id="Questions" class=" flex justify-center items-center flex-wrap text-center">
+            <p >
+              Question :  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptatibus, consequuntur rem culpa quas repellendus dignissimos minus vitae possimus placeat debitis eius sunt quos dolorum a dolorem ipsum ipsam eos.
+            </p>
+        </section>
+
+        <section id="Answers" class="flex flex-col  " *ngFor="let question of QuestionArr">
+            
+            <app-card ></app-card>
+            <app-card></app-card>
+            <app-card></app-card>
+
+        </section>
+
+    
+    </section>
+
+</main>
